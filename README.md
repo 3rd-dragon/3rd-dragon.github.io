@@ -1,77 +1,70 @@
-# 💌 Mobile Wedding Invitation 💌
+# Getting Started with Create React App
 
-![demo1.gif](demo1.gif)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-이 프로젝트는 모바일 청첩장 입니다.
+## Available Scripts
 
-React와 Typescript를 기반으로 개발되었으며, Vite를 사용하여 빠르고 간편한 개발 환경을 제공합니다. 
+In the project directory, you can run:
 
-eslint와 prettier를 적용했고, emotion/styled를 활용하여 스타일링을 헸습니다.
+### `npm start`
 
-갤러리는 react-photoswipe-gallery, 지도는 react-naver-maps 를 사용했습니다.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-![demo2.gif](demo2.gif)
+### `npm test`
 
-js-confetti를 이용하여 귀여운 컨페티 기능을 넣었습니다.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run build`
 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## 프로젝트 설치 및 실행 방법
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-1. 저장소를 클론합니다.
-```
-git clone https://github.com/your-username/mobile-wedding-invitation.git
-```
-2. 프로젝트 폴더로 이동합니다.
-```
-cd mobile-wedding-invitation
-```
-3. 필요한 의존성을 설치합니다.
-```
-npm install
-```
-4. (필수) `.env.sample` 파일의 이름을 `.env`으로 바꾸고, VITE_APP_NAVERMAPS_CLIENT_ID에 Naver Cloud에서 발급 받은 `client_id`로 채웁니다. `client_id`는 [NAVER CLOUD PLATFORM](https://console.ncloud.com/naver-service/application) 에서 어플리케이션 등록 후 발급받을 수 있습니다.
-5. (선택) likes와 방명록 기능 사용을 원한다면 Firebase 설정이 필요합니다. src/firebase.ts 파일에 Firebase SDK를 설정합니다. [Firebase](https://firebase.google.com/docs/web/setup?hl=ko) 문서를 참고하여 SDK를 설정할 수 있습니다.
-6. 사용자 정의가 필요한 파일들을 수정합니다. (아래의 체크리스트 참고)
-7. 애플리케이션을 실행합니다.
-```
-npm run dev
-```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `npm run eject`
 
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## 커스텀 체크리스트
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-- [ ] `src/data.json` 청첩장에 들어갈 정보를 수정합니다.
-- [ ] `index.html` 파비콘, title, og tag에 쓰일 meta tag 등을 수정합니다.
-- [ ] `public/thumbnail.jpg` 썸네일 사진을 수정합니다.
-- [ ] `assets/images`에 갤러리에 들어갈 사진을 넣고, `src/layout/Gallery/Images.ts` 에서 import합니다. 이곳에서 사진에 맞게 사이즈를 수정합니다.
-- [ ] `.env` VITE_APP_NAVERMAPS_CLIENT_ID=client_id 입력이 필요합니다.
-- [ ] (선택) `src/firebase.ts` likes, 방명록을 사용한다면 firebase sdk 설정이 필요합니다.
-- [ ] (선택) `src/data.json` 혼주 계좌번호 작성시 `kakaopayAccount`, `tossAccount` 항목을 이용해 카카오페이나 토스 링크를 추가할 수 있습니다.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-## Clone 후, 바로 배포하기
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fheejin-hwang%2Fmobile-wedding-invitation)
+## Learn More
 
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## 참고 자료
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-- 개발자: [heejin-hwang](https://github.com/heejin-hwang)
-- react-photoswipe-gallery 라이브러리: [react-photoswipe-gallery](https://www.npmjs.com/package/react-photoswipe-gallery)
-- react-naver-maps 공식문서: [react-naver-maps](https://zeakd.github.io/react-naver-maps/)
-- 네이버 클라우드 플랫폼: [NAVER CLOUD PLATFORM](https://console.ncloud.com/naver-service/application)
-- 카카오 디벨로퍼스: https://developers.kakao.com/
-- 토스 아이디 만들기: https://toss.me/
+### Code Splitting
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-이 프로젝트는 MIT 라이센스에 따라 배포됩니다. 자세한 내용은 LICENSE 파일을 참조하세요.
+### Analyzing the Bundle Size
 
-## 또 하나의 모바일 청첩장
-좀 더 정돈된 디자인을 윈한다면, [스몰빅웨딩](https://bit.ly/4jEJQcg)에서 귀여운 포인트가 가득한 청첩장을 이용해 볼 수 있습니다.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-## Star History
+### Making a Progressive Web App
 
-[![Star History Chart](https://api.star-history.com/svg?repos=heejin-hwang/mobile-wedding-invitation&type=Date)](https://star-history.com/#heejin-hwang/mobile-wedding-invitation&Date)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
