@@ -16,12 +16,6 @@ const Main = () => {
 
 export default Main;
 
-const Line = styled.span`
-  width: 100%;
-  height: 1px;
-  background: rgb(255, 130, 0);
-`;
-
 const MainImg = styled.img`
   border-radius: 200px 200px 0 0;
   width: 100%;
