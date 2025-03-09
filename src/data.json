@@ -1,0 +1,128 @@
+{
+  "greeting": {
+    "title": "권오혁의 생일 파티에 \n초대합니다 🤍", 
+    "message": "2024년 3월 25일.\n3.06kg, 50.5cm 세상에 나온 오혁이가\n사계절을 보내고 첫돌을 맞이하였습니다.\n사랑과 관심으로 지켜봐주신 가족들께\n감사의 마음으로 작은 자리를 마련하였습니다.\n\n뜻깊은 날 소중한 발걸음하시어\n함께 해주시면 감사하겠습니다.\n오혁이의 첫번째 생일을 함께 축하해주세요.",
+    "host": {
+      "groom": {
+        "name": "세모",
+        "relation": "아들",
+        "parents": [
+          {
+            "relation": "아버지",
+            "name": "장아빠"
+          },
+          {
+            "relation": "어머니",
+            "name": "이엄마"
+          }
+        ]
+      },
+      "bride": {
+        "name": "네모",
+        "relation": "딸",
+        "parents": [
+          {
+            "relation": "아버지",
+            "name": "황아빠"
+          },
+          {
+            "relation": "어머니",
+            "name": "이엄마"
+          }
+        ]
+      }
+    },
+    "eventDetail": "2025.03.23 | 12:00\n시그니처파티플레이스 안양점"
+  },
+  "hostInfo": [
+    {
+      "host": "신랑측",
+      "accountInfo": [
+        {
+          "name": "장세모",
+          "relation": "신랑",
+          "bank": "카카오뱅크",
+          "account": "1234-56-789012",
+          "kakaopayAccount": "",
+          "tossAccount": ""
+        },
+        {
+          "name": "장아빠",
+          "relation": "아버지",
+          "bank": "농협",
+          "account": "123-45-678901"
+        },
+        {
+          "name": "이엄마",
+          "relation": "어머니",
+          "bank": "농협",
+          "account": "123-45-678901"
+        }
+      ]
+    },
+    {
+      "host": "신부측",
+      "accountInfo": [
+        {
+          "name": "황네모",
+          "relation": "신부",
+          "bank": "토스뱅크",
+          "account": "1234-5678-9012",
+          "kakaopayAccount": "",
+          "tossAccount": ""
+        },
+        {
+          "name": "황아빠",
+          "relation": "아버지",
+          "bank": "농협",
+          "account": "123-45-678901"
+        },
+        {
+          "name": "이엄마",
+          "relation": "어머니",
+          "bank": "농협",
+          "account": "123-45-678901"
+        }
+      ]
+    }
+  ],
+  "mapInfo": {
+    "address1": "\uD83D\uDCCD 시그니처파티플레이스 안양점",
+    "address2": "\uD83D\uDCCD 경기도 안양시 동안구 엘에스로 142\n금정역skv1센터 6층\n0507-1389-0985",
+    "naverMap": "https://map.naver.com/p/directions/-/14131663.6535274,4491405.960584,%EC%8B%9C%EA%B7%B8%EB%8B%88%EC%B2%98%20%ED%8C%8C%ED%8B%B0%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4%20%EC%95%88%EC%96%91%EC%A0%90,1586581333,PLACE_POI/-/transit?c=15.00,0,0,0,dh",
+    "kakaoMap": "https://kko.kakao.com/pavcIqWFZE",
+    "lat": 37.3742812,
+    "lon": 126.9468945
+  },
+  "locationInfo": [
+    {
+      "title": "\uD83D\uDCCD 주소",
+      "desc": "경기도 안양시 동안구 엘에스로 142\n금정역skv1센터 6층\n0507-1389-0985"
+    },
+    {
+      "title": "🚘 주차안내",
+      "desc": "건물 내 2시간 무료주차"
+    },
+    {
+      "title": "🚇 지하철",
+      "desc": "1·4호선 금정역 1번 출구 (도보 8분)"
+    }
+  ],
+  "emojis": [
+    "❤️",
+    "💛",
+    "💌",
+    "🥹",
+    "🥳",
+    "👰🏻‍",
+    "🤵🏻‍️",
+    "🤍",
+    "✨",
+    "💍",
+    "💒",
+    "💕",
+    "😍",
+    "🔔",
+    "💘"
+  ]
+}
